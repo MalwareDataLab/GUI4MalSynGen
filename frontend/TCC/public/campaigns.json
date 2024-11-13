@@ -1,0 +1,50 @@
+{
+  "Customize": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "0",
+    "dense_layer_sizes_d": "0",
+    "number_epochs": "0"
+  },
+  "Dense64_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "64",
+    "dense_layer_sizes_d": "64",
+    "number_epochs": "1000"
+  },
+  "Dense128_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "128",
+    "dense_layer_sizes_d": "128",
+    "number_epochs": "1000"
+  },
+  "Dense256_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "256",
+    "dense_layer_sizes_d": "256",
+    "number_epochs": "1000"
+  },
+  "Dense512_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "512",
+    "dense_layer_sizes_d": "512",
+    "number_epochs": "1000"
+  },
+  "Dense1024_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "1024",
+    "dense_layer_sizes_d": "1024",
+    "number_epochs": "1000"
+  },
+  "Dense4096_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "4096",
+    "dense_layer_sizes_d": "4096",
+    "number_epochs": "1000"
+  },
+  "Dense8192_E1000": {
+    "verbosity": "20",
+    "dense_layer_sizes_g": "8192",
+    "dense_layer_sizes_d": "8192",
+    "number_epochs": "1000"
+  }
+}
