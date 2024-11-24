@@ -75,7 +75,12 @@ services:
       - JOBS_CONCURRENCY=1
     ports:
       - 3333:3333
-    command: ./wait-for-it.sh autodroid_dind:2375 -s -- ./wait-for-it.sh autodroid_postgres_prod:5432 -s -- ./wait-for-it.sh autodroid_redis_prod:6379 -s -- bash -c "yarn run-s prisma:generate prisma:prod start"
+    command: >
+      bash -c "./wait-for-it.sh autodroid_dind:2375 -s &&
+           ./wait-for-it.sh autodroid_postgres_prod:5432 -s &&
+           ./wait-for-it.sh autodroid_redis_prod:6379 -s &&
+           yarn run-s prisma:generate prisma:prod start"
+
     depends_on:
       - autodroid_dind
       - autodroid_postgres_prod

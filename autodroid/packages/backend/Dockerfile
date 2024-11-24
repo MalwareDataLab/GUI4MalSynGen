@@ -3,8 +3,8 @@ FROM node:18.17.1 as build
 
 WORKDIR /usr/app
 
-COPY package.json yarn.lock ./
-
+COPY package.json /usr/app/
+COPY yarn.lock /usr/app/
 RUN yarn
 
 COPY . .
@@ -16,7 +16,7 @@ FROM node:18.17.1 as production
 
 WORKDIR /usr/app
 
-COPY --from=build /usr/app/package.json /usr/app/yarn.lock /usr/app/scripts/wait-for-it.sh ./
+COPY --from=build /usr/app/package.json /usr/app/yarn.lock /usr/app/scripts/wait-for-it.sh /usr/app/
 COPY --from=build /usr/app/prisma ./prisma
 COPY --from=build /usr/app/dist ./dist
 
