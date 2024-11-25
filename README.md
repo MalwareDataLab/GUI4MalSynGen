@@ -11,14 +11,17 @@ GUI4MalSynGen é uma interface gráfica para o MalSynGen, uma ferramenta integra
 - [Uso](#uso)
 - [Execução de Campanhas de Treinamento](#execução-de-campanhas-de-treinamento)
 
+
+<a id="arquitetura"></a>
 ## 🏛️ Arquitetura
- <a id="arquitetura"></a>
+
 <div align="center">
 <img src="./frontend/TCC/src/assets/img/system_context2.jpg" alt="Arquitetura da aplicação" width="70%">
 </div>
 
+<a id="requisitos"></a>
 ## 📦 Requisitos
- <a id="requisitos"></a>
+ 
 - Sistema operacional: **Ubuntu 22.04** (MacOS/Windows em fase experimental)
 - Memória: **Mínimo de 4GB de RAM**
 - Armazenamento: **Mínimo de 10GB de espaço livre em disco**
@@ -26,16 +29,18 @@ GUI4MalSynGen é uma interface gráfica para o MalSynGen, uma ferramenta integra
 - **Docker** versão 27.2.1
 - **Python** versão 3.8.10 ou superior
 
+<a id="instalação"></a>
 ## 👨‍💻 Instalação
- <a id="instalação"></a>
+
 Clone o repositório do projeto:
 
 ```bash
 git clone https://github.com/LeonardoSonco/GUI4MalSynGen.git
 ```
 
-## 🛠️ Execução com Docker
 <a id="execução-com-docker"></a>
+## 🛠️ Execução com Docker
+
 **Backend da aplicação**
 - Abra o terminal.
 - Navegue até a pasta autodroid.
@@ -66,8 +71,8 @@ Caso apareça a mensagem de permission denied ao tentar executar o script, basta
 sudo su
 ```
 
-## ⚙️ Uso
 <a id="uso"></a>
+## ⚙️ Uso
 Após a instalação e execução do Docker, a aplicação estará disponível localmente para uso:
 
 - Abra o navegador.
@@ -77,9 +82,8 @@ localhost:3000
 ```
 Pronto! Agora você acessou o conteúdo localmente em sua máquina.
 
-
-## 🚀 Execução de Campanhas de Treinamento 
 <a id="execução-de-campanhas-de-treinamento"></a>
+## 🚀 Execução de Campanhas de Treinamento 
 Para executar campanhas de treinamento, siga os passos abaixo:
 
 1. Na interface, vá até o card de Parâmetros de Treinamento, e selecione a opção Custom preenchendo com os seguintes valores:
