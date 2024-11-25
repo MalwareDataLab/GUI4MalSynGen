@@ -92,5 +92,12 @@ Para executar campanhas de treinamento, siga os passos abaixo:
 4. Clique no botão Iniciar para começar o treinamento. Se nada aparecer no card de Processos, clique no botão de Refresh para atualizar.
 
 5. Quando o processo estiver com o ícone de check (✔), clique sobre ele para visualizar os resultados.
+</br></br>
+**⚠️ Observações Importantes ⚠️** 
+</br></br>
+Se ocorrer um erro de autorização ou falha na conexão, será necessário limpar o local storage da página no navegador, excluir todos os containers relacionados ao experimento e reiniciar a execução do Docker [Execução com Docker](#execução-com-docker).
+```
+</br>
+
 
 Na página de resultados, você encontrará gráficos gerados durante o treinamento do dataset com os parâmetros configurados. Também é possível baixar o dataset treinado, se desejar.
