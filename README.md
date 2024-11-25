@@ -102,7 +102,7 @@ Para executar campanhas de treinamento, siga os passos abaixo:
 </br></br>
 **⚠️ Observações Importantes ⚠️** 
 </br></br>
-Se ocorrer um erro de autorização ou falha na conexão, será necessário limpar o local storage da página no navegador, excluir todos os containers relacionados ao experimento e reiniciar a execução do Docker [Execução com Docker](#execução-com-docker).
+Se ocorrer um erro de autorização ou falha na conexão, será necessário limpar o local storage da página no navegador, excluir todos os containers relacionados ao experimento e reiniciar a execução do Docker([Execução com Docker](#execução-com-docker)).
 </br>
 
 
