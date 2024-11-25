@@ -12,13 +12,13 @@ GUI4MalSynGen é uma interface gráfica para o MalSynGen, uma ferramenta integra
 - [Execução de Campanhas de Treinamento](#execução-de-campanhas-de-treinamento)
 
 ## 🏛️ Arquitetura
-
+ <a id="arquitetura"></a>
 <div align="center">
 <img src="./frontend/TCC/src/assets/img/system_context2.jpg" alt="Arquitetura da aplicação" width="70%">
 </div>
 
 ## 📦 Requisitos
-
+ <a id="requisitos"></a>
 - Sistema operacional: **Ubuntu 22.04** (MacOS/Windows em fase experimental)
 - Memória: **Mínimo de 4GB de RAM**
 - Armazenamento: **Mínimo de 10GB de espaço livre em disco**
@@ -27,7 +27,7 @@ GUI4MalSynGen é uma interface gráfica para o MalSynGen, uma ferramenta integra
 - **Python** versão 3.8.10 ou superior
 
 ## 👨‍💻 Instalação
-
+ <a id="instalação"></a>
 Clone o repositório do projeto:
 
 ```bash
@@ -35,6 +35,7 @@ git clone https://github.com/LeonardoSonco/GUI4MalSynGen.git
 ```
 
 ## 🛠️ Execução com Docker
+<a id="execução-com-docker"></a>
 **Backend da aplicação**
 - Abra o terminal.
 - Navegue até a pasta autodroid.
@@ -66,6 +67,7 @@ sudo su
 ```
 
 ## ⚙️ Uso
+<a id="uso"></a>
 Após a instalação e execução do Docker, a aplicação estará disponível localmente para uso:
 
 - Abra o navegador.
@@ -76,7 +78,8 @@ localhost:3000
 Pronto! Agora você acessou o conteúdo localmente em sua máquina.
 
 
-## 🚀 Execução de Campanhas de Treinamento
+## 🚀 Execução de Campanhas de Treinamento 
+<a id="execução-de-campanhas-de-treinamento"></a>
 Para executar campanhas de treinamento, siga os passos abaixo:
 
 1. Na interface, vá até o card de Parâmetros de Treinamento, e selecione a opção Custom preenchendo com os seguintes valores:
@@ -96,7 +99,6 @@ Para executar campanhas de treinamento, siga os passos abaixo:
 **⚠️ Observações Importantes ⚠️** 
 </br></br>
 Se ocorrer um erro de autorização ou falha na conexão, será necessário limpar o local storage da página no navegador, excluir todos os containers relacionados ao experimento e reiniciar a execução do Docker [Execução com Docker](#execução-com-docker).
-```
 </br>
 
 
